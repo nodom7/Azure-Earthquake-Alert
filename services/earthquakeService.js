@@ -3,7 +3,7 @@ function getAlertStatus(properties) {
     return alert ? alert : "No Alert";
 }
 
-async function getManualEarthquake(readInput) {  // Inject `readInput` as a dependency if needed
+async function getManualEarthquake(readInput) {  
     const place = await readInput('Enter the location: ');
     const magnitude = parseFloat(await readInput('Enter the magnitude: '));
     const alert = await readInput('Enter the alert status (or leave blank for "No Alert"): ') || "No Alert";
