@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/b4833552-e101-47f4-9491-8a70e0b5b77b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/quakedetectorapp",
+    "appService.deploySubpath": "."
+}
