@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@azure/cosmos": "^4.1.1",
     "@azure/storage-blob": "^12.24.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
